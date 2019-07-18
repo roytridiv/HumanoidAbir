@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/abir">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <Button
+            android:id="@+id/task1"
+            android:fontFamily="sans-serif"
+            android:background="@color/col1"
+            android:text="Turn off the fan"
+            android:textColor="@color/col6"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/task2"
+            android:background="@color/col2"
+            android:text="Clean the floor"
+            android:textColor="@color/col6"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/task3"
+            android:background="@color/col3"
+            android:text="open the door"
+            android:textColor="@color/col6"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/task4"
+            android:background="@color/col4"
+            android:text="Say some jokes"
+            android:textColor="@color/col6"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+<!--<android.support.v7.widget.CardView
+    android:id="@+id/student"
+    app:cardBackgroundColor="@color/col1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textAlignment="center"
+            android:text="Student name"
+            android:layout_gravity="center"
+            android:textColor="@color/col6"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView> -->
+
+
+
+</RelativeLayout>
+
